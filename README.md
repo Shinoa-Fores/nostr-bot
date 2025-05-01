@@ -22,7 +22,7 @@ Next clone this repo to the same location:
 git clone https://github.com/Shinoa-Fores/nostr-bot.git ~/quicklisp/local-projects
 ```
 
-Copy the [nostr.conf](./nostr.conf) file to `~/.config/n/nostr.conf` and populate it with you hex-encoded public key, and the bot's corresponding keypair. You can change the defined relay for the bot by editing [this parameter](https://github.com/Shinoa-Fores/nostr-bot/blob/master/bot.lisp#L19).
+Copy the [nostr.conf](./nostr.conf) file to `~/.config/n/nostr.conf` and populate it with your hex-encoded public key, and the bot's corresponding keypair. You can change the defined relay for the bot by editing [this parameter](https://github.com/Shinoa-Fores/nostr-bot/blob/master/bot.lisp#L19).
 
 Start your REPL and load the project via quicklisp:
 
@@ -44,7 +44,7 @@ Start the bot:
 
 Simply `ctrl + c` to quit. (Not portable, only tested in sbcl)
 
-Users can define new commands by adding them to [commands.lisp](./commands.lisp). A basic `eval` command to evaluate lisp expression (bot admin only) and `gm` (which replies back with gm) are included to get you started.
+Users can define new commands by adding them to [commands.lisp](./commands.lisp). A basic `eval` command to evaluate lisp expressions (bot admin only) and `gm` (which replies back with gm) are included to get you started.
 
 ------
 Contact me on [nostr](https://nostr.band/npub1f0restzwusrck2k62dq2ueelrrfmdfnyk8uhart8n8nqwn94cwwsppm0sa)
