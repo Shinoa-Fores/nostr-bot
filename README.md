@@ -22,7 +22,7 @@ Next clone this repo to the same location:
 git clone https://github.com/Shinoa-Fores/nostr-bot.git ~/quicklisp/local-projects
 ```
 
-Copy the `nostr.conf` file to `~/.config/n/nostr.conf` and populate it with you hex-encoded public key, and the bot's corresponding keypair.
+Copy the [nostr.conf](./nostr.conf) file to `~/.config/n/nostr.conf` and populate it with you hex-encoded public key, and the bot's corresponding keypair. You can change the defined relay for the bot by editing [this parameter](https://github.com/Shinoa-Fores/nostr-bot/blob/master/bot.lisp#L19).
 
 Start your REPL and load the project via quicklisp:
 
