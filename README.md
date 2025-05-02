@@ -13,13 +13,13 @@ This bot requires quicklisp and [BIP0340](https://github.com/akovalenko/bip0340)
 BIP0340 (Used for event signing) is not directly available in quicklisp repositories so you will need to manually add it so asdf can locate it:
 
 ```shell
-git clone https://github.com/akovalenko/bip0340.git ~/quicklisp/local-projects/
+git clone https://github.com/akovalenko/bip0340.git ~/quicklisp/local-projects/bip0340
 ```
 
 Next clone this repo to the same location:
 
 ```shell
-git clone https://github.com/Shinoa-Fores/nostr-bot.git ~/quicklisp/local-projects
+git clone https://github.com/Shinoa-Fores/nostr-bot.git ~/quicklisp/local-projects/nostr-bot
 ```
 
 Copy the [nostr.conf](./nostr.conf) file to `~/.config/n/nostr.conf` and populate it with your hex-encoded public key, and the bot's corresponding keypair. You can change the defined relay for the bot by editing [this parameter](https://github.com/Shinoa-Fores/nostr-bot/blob/master/bot.lisp#L19).
